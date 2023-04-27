@@ -1,0 +1,82 @@
+
+
+.box{
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+body{
+    min-height: 200vh;
+}
+
+h4{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: white;
+    margin-top: 10px;
+    font-size: 23px;
+    visibility: hidden;
+    opacity: 0;
+}  
+.show-response{
+    visibility: visible;
+    opacity: 70% ;
+    transform: translateX(0);
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 5px;
+    font-size: 23px;
+    margin: 0 5px;
+    border-radius: 7px;
+}
+
+.question-click{
+    background-color: rgb(9, 119, 150);
+    border: 15px solid pink;
+    border-radius: 50px;
+}
+
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    border: solid rgb(171, 17, 66) 3px;
+    position: absolute;
+    transform:translate(-50% ,-50%) ;
+    z-index: -1;
+
+    
+}
+
+#menu{
+    background: teal;
+    padding: 10px 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: -70px;
+    position: 0.3s ease;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
